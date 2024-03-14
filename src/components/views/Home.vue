@@ -29,8 +29,8 @@ export default {
     return {
       boardName: "",
       boards: [
-        { id: 1, name: "Tareas" },
-        { id: 2, name: "Lista de la compra" },
+        { id: '1', name: "Tareas" },
+        { id: '2', name: "compra" },
       ],
     };
   },
@@ -54,6 +54,8 @@ h3 {
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 1rem;
+  margin: 2em;
+  align-items: center;
 }
 ::placeholder {
   color: rgb(239, 239, 239);
@@ -67,5 +69,6 @@ input {
   outline: 0;
   padding: 0.5rem;
   transition: all 600ms ease;
+  color: whitesmoke;
 }
 </style>

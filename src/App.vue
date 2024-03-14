@@ -29,6 +29,8 @@ export default {
   text-align: center;
   margin: 0 auto;
   padding: 0;
+  position: relative;
+
 }
 
 .container {
