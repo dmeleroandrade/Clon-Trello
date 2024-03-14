@@ -97,13 +97,14 @@ input {
   background-color: #38515d;
   border: 0;
   border-radius: 3px;
-  box-shadow: 0 0 0 0.5px rgba(49, 49, 93, 0.03),
-    0 2px 5px 0 rgba(29, 29, 54, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
   color: #e0e4e7;
   font-size: 1.3rem;
   margin: 1rem;
   outline: 0;
   padding: 1rem;
   transition: all 600ms ease;
+}
+.input:hover {
+background-color: #e0e4e7;
 }
 </style>

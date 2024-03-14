@@ -9,7 +9,7 @@
 </li>
        <input
          type="text"
-         placeholder="añade una nueva tarea"
+         placeholder="añade una nueva tarea..."
          v-model="title"
          v-on:keyup.enter="add()"
        />
