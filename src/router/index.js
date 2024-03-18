@@ -5,6 +5,7 @@ import Router from 'vue-router'
 import Home from '@/components/views/Home.vue'
 import Board from '@/components/views/board.vue'
 
+
 Vue.use(Router)
 export default new Router({
 
